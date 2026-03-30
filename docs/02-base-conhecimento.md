@@ -2,17 +2,17 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
+O Vigi utiliza os dados estruturados da pasta `data` para garantir que todas as orientações de segurança financeira sejam baseadas em fatos reais do cliente, evitando alucinações.
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
+| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores e manter a continuidade da consultoria. |
+| `perfil_investidor.json` | JSON | Validar se as sugestões de proteção estão alinhadas à tolerância de risco do usuário. |
+| `produtos_financeiros.json` | JSON | Cruzar oportunidades do catálogo com as necessidades de segurança do cliente. |
+| `transacoes.csv` | CSV | Analisar padrões de consumo e identificar fôlego financeiro para reserva de emergência. |
 
 > [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+> **Dataset Robusto:** Para este projeto, focamos na fidelidade dos dados mockados fornecidos, garantindo que a lógica de "Vigilante" funcione sobre o histórico específico do usuário.
 
 ---
 
@@ -20,7 +20,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+Os dados originais foram mantidos para garantir a integridade do teste, porém o Vigi aplica uma camada de **rotulagem lógica** durante a leitura: ele classifica transações como "essenciais" ou "supérfluas" dinamicamente para sugerir onde o usuário pode economizar para fortalecer sua segurança financeira.
 
 ---
 
@@ -29,12 +29,12 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Os arquivos JSON e CSV são carregados via Python (Pandas) no início da sessão do Streamlit. Eles são convertidos em estruturas de texto otimizadas para que o modelo Gemini possa processar as tabelas com rapidez, mesmo em ambientes de hardware limitado.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+Os dados são injetados dinamicamente no contexto do prompt de sistema (System Instructions). O Vigi recebe o perfil e as últimas transações como "fatos imutáveis", garantindo o **Grounding** (ancoragem) da resposta apenas no que está nos arquivos.
 
 ---
 
@@ -42,14 +42,14 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 
-```
-Dados do Cliente:
+```text
+CONTEXTO DO CLIENTE (Vigi Mode):
 - Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
+- Perfil: Conservador (Foco em Proteção)
+- Alerta de Risco: Ausência de Reserva de Emergência mínima.
 
-Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
-...
-```
+HISTÓRICO RECENTE (transacoes.csv):
+- 10/03: Restaurante - R$ 220,00 (Categoria: Lazer)
+- 12/03: Seguro Auto - R$ 180,00 (Categoria: Proteção)
+
+DIRETRIZ: Analise se o gasto de 10/03 compromete a meta de segurança do João.
