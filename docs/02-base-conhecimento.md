@@ -45,11 +45,11 @@ Os dados são injetados dinamicamente no contexto do prompt de sistema (System I
 ```text
 CONTEXTO DO CLIENTE (Vigi Mode):
 - Nome: João Silva
-- Perfil: Conservador (Foco em Proteção)
+- Perfil: Moderado (Foco em Proteção)
 - Alerta de Risco: Ausência de Reserva de Emergência mínima.
 
 HISTÓRICO RECENTE (transacoes.csv):
-- 10/03: Restaurante - R$ 220,00 (Categoria: Lazer)
-- 12/03: Seguro Auto - R$ 180,00 (Categoria: Proteção)
+- 2025-10-10: Restaurante - R$ 120,00 (Categoria: Alimentação)
+- 2025-10-02: Seguro Auto - R$ 1200,00 (Categoria: Moradia)
 
 DIRETRIZ: Analise se o gasto de 10/03 compromete a meta de segurança do João.
