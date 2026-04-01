@@ -1,31 +1,21 @@
-# Código da Aplicação
+# 💻 Código da Aplicação - VIGI
 
-Esta pasta contém o código do seu agente financeiro.
+Esta pasta documenta a estrutura lógica e as dependências do **VIGI - Vigilante Financeiro**.
 
-## Estrutura Sugerida
+## 🏗️ Arquitetura de Implementação (Cloud-Native)
 
-```
-src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
-```
+Para garantir 100% de disponibilidade e performance no processamento de dados financeiros, a aplicação foi desenvolvida para rodar em ambiente **Google Colab**, utilizando o modelo **Gemini 2.5 Flash**.
 
-## Exemplo de requirements.txt
+### Estrutura de Execução:
+- **Interface Gráfica:** Desenvolvida com `ipywidgets` para renderização imediata no navegador, evitando problemas de portas e certificados comuns em bibliotecas externas (Gradio/Streamlit).
+- **Processamento de IA:** Integração direta com a biblioteca `google-generativeai`.
+- **Lógica de Dados:** Funções de ETL (Extração, Transformação e Carga) que consomem os arquivos JSON e CSV da pasta `data/`.
 
-```
-streamlit
-openai
-python-dotenv
-```
+## 📦 Dependências Principais
 
-## Como Rodar
-
-```bash
-# Instalar dependências
-pip install -r requirements.txt
-
-# Rodar a aplicação
-streamlit run app.py
-```
+Diferente da estrutura básica, o VIGI utiliza:
+```text
+google-generativeai  # Motor de IA (Gemini 2.5 Flash)
+ipywidgets           # Interface nativa e estável
+pandas               # Manipulação de dados (CSV/JSON)
+IPython              # Renderização de componentes Rich Text
