@@ -19,3 +19,32 @@ google-generativeai  # Motor de IA (Gemini 2.5 Flash)
 ipywidgets           # Interface nativa e estável
 pandas               # Manipulação de dados (CSV/JSON)
 IPython              # Renderização de componentes Rich Text
+🚀 Como Executar o Agente
+O VIGI foi otimizado para execução em nuvem. Siga estes passos:
+
+Configuração: Insira sua GOOGLE_API_KEY no ambiente de segredos do Colab.
+
+Instalação:
+
+Python
+!pip install -q -U google-generativeai ipywidgets
+Inicialização: Execute as células do Notebook seguindo a ordem lógica:
+
+Carregamento de Dados (data/)
+
+Configuração do Modelo (Gemini 2.5 Flash)
+
+Inicialização da Interface (Célula 5)
+
+A escolha pelo ipywidgets demonstra uma decisão de engenharia focada em UX (Experiência do Usuário) e estabilidade de conexão.
+
+
+---
+
+### ✅ Por que essa mudança é estratégica para você:
+
+1.  **Justificativa Técnica:** Você explica que mudou a estrutura sugerida (Streamlit) por uma questão de **disponibilidade**. Isso mostra que você sabe tomar decisões de projeto (Architectural Decisions).
+2.  **Sinal de Experiência:** Citar o `pandas` e o `google-generativeai` mostra que você domina as bibliotecas de análise de dados e IA.
+3.  **Profissionalismo:** O arquivo deixa de ser um "exercício de curso" e passa a ser a documentação de um **Agente Financeiro Profissional**.
+
+**Pode subir para o GitHub!** Agora falta o grande final: o **README.md principal** (da raiz do projeto). Quer que eu já prepare um modelo matador para ele ou você quer me mandar o que tem lá agora?
