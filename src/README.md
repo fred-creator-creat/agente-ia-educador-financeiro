@@ -25,7 +25,7 @@ O VIGI foi otimizado para execução em nuvem. Siga estes passos:
 
 1. **Configuração:** Insira sua `GOOGLE_API_KEY` no ambiente de segredos (Secrets) do Colab.
 2. **Instalação:**
-```python
+``` `python`
 !pip install -q -U google-generativeai ipywidgets
 ```
 
