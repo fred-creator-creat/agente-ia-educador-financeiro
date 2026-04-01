@@ -1,22 +1,16 @@
-# Pitch (3 minutos)
+# 🛡️ Pitch: Vigi (Vigilante Financeiro)
 
-> [!TIP]
-> Você pode usar alguns slides para apoiar no seu Pitch e mostrar sua solução na prática.
+## 1. O Problema (30 seg)
+"Muitos brasileiros sofrem com a 'paralisia analítica': possuem dados bancários, mas não sabem interpretá-los para tomar decisões seguras. A falta de uma reserva de emergência sólida e o medo de investimentos arriscados impedem o crescimento patrimonial seguro. Como transformar dados brutos em proteção real?"
 
-## Roteiro Sugerido
+## 2. A Solução: Vigi (1 min)
+"Apresento o **Vigi**, um Vigilante Financeiro baseado no Google Gemini 2.5 Flash. Diferente de chatbots genéricos, o Vigi atua como um mentor de proteção. Ele utiliza técnicas avançadas de **Grounding** em arquivos CSV e JSON para analisar o histórico real do usuário. O foco do Vigi não é o lucro rápido, mas a 'Guarda Alta': garantir que a reserva de emergência seja a prioridade absoluta antes de qualquer risco."
 
-### 1. O Problema (30 seg)
-Muitos brasileiros possuem acesso a dados bancários, mas sofrem com a "paralisia analítica": eles olham para o extrato e não sabem se estão seguros ou se podem investir. A falta de uma reserva de emergência e o medo de cair em golpes ou investimentos errados afastam o cidadão comum do mercado financeiro.
+## 3. Demonstração e Tecnologia (1 min)
+"Desenvolvi o Vigi em um ambiente **100% Cloud (Google Colab)**, superando limitações de hardware local com uma arquitetura eficiente em Python e Pandas. Na interface **Gradio**, vemos o Vigi em ação: ele identifica gastos de transporte (somando Uber e Combustível com precisão de centavos) e barra tentativas de investimento em Cripto quando detecta que a reserva de emergência do usuário ainda não atingiu a meta de R$ 15.000,00."
 
-### 2. A Solução (1 min)
-Apresento o **Vigi (Vigilante Financeiro)**. Um agente inteligente baseado no Google Gemini que atua como um mentor de proteção patrimonial. Diferente de chats comuns, o Vigi utiliza **Grounding** em arquivos reais de transações e perfil para oferecer uma consultoria que prioriza a segurança antes do lucro, educando o usuário sobre riscos de forma direta e técnica.
-
-### 3. Demonstração (1 min)
-Na demonstração, vemos o Vigi analisando um arquivo `transacoes.csv` em tempo real. O usuário pergunta se pode comprar um item de luxo, e o Vigi, ao detectar que a reserva de emergência no `perfil_investidor.json` ainda não foi atingida, sugere proativamente a retenção desse capital, indicando o produto mais seguro do catálogo para alocação imediata.
-
-### 4. Diferencial e Impacto (30 seg)
-O diferencial do Vigi é a sua "Guarda Alta": ele é programado para ser cético e protetor. O impacto social é a promoção da resiliência financeira. Em um país com altos índices de endividamento, ter um vigilante digital que impede decisões impulsivas baseadas em dados concretos é o primeiro passo para a verdadeira liberdade financeira.
-
+## 4. Diferencial e Impacto (30 seg)
+"O diferencial do Vigi é a sua 'Admissão de Ignorância': ele nunca alucina. Se o dado não está na base, ele informa por segurança. O impacto é a resiliência financeira: um vigilante digital que impede decisões impulsivas e educa o usuário para a verdadeira segurança patrimonial."
 ---
 
 ## Checklist do Pitch
