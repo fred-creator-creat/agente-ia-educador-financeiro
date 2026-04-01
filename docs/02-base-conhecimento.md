@@ -29,7 +29,7 @@ Os dados originais foram mantidos para garantir a integridade do teste, porém o
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-Os arquivos JSON e CSV são carregados via Python (Pandas) no início da sessão do Streamlit. Eles são convertidos em estruturas de texto otimizadas para que o modelo Gemini possa processar as tabelas com rapidez, mesmo em ambientes de hardware limitado.
+Os arquivos JSON e CSV são carregados via Python (Pandas) no ambiente Google Colab e exibidos via Gradio. Eles são convertidos em estruturas de texto otimizadas para que o modelo Gemini possa processar as tabelas com rapidez, mesmo em ambientes de hardware limitado.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
@@ -45,11 +45,13 @@ Os dados são injetados dinamicamente no contexto do prompt de sistema (System I
 ```text
 CONTEXTO DO CLIENTE (Vigi Mode):
 - Nome: João Silva
+- Profissão: Analista de Sistemas
+- Renda Mensal: R$ 5000.00
 - Perfil: Moderado (Foco em Proteção)
 - Alerta de Risco: Ausência de Reserva de Emergência mínima.
 
 HISTÓRICO RECENTE (transacoes.csv):
-- 2025-10-10: Restaurante - R$ 120,00 (Categoria: Alimentação)
-- 2025-10-02: Seguro Auto - R$ 1200,00 (Categoria: Moradia)
+- 2025-10-10: Restaurante - R$ 120.00 (Categoria: Alimentação)
+- 2025-10-02: Seguro Auto - R$ 1200.00 (Categoria: Moradia)
 
 DIRETRIZ: Analise se o gasto de 10/03 compromete a meta de segurança do João.
