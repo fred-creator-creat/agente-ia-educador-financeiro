@@ -31,4 +31,5 @@ O VIGI foi otimizado para execução em nuvem. Siga estes passos:
 - Carregamento de Dados (`data/`)
 - Configuração do Modelo (`Gemini 2.5 Flash`)
 - Inicialização da Interface (`Célula 5`)
+
 **Nota de Engenharia:** A escolha pelo `ipywidgets` demonstra uma decisão focada em UX (Experiência do Usuário) e estabilidade de conexão.
