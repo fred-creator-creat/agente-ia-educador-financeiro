@@ -28,7 +28,7 @@ O VIGI foi otimizado para execução em nuvem. Siga estes passos:
 ``` `python`
 !pip install -q -U google-generativeai ipywidgets
 ```
-
+---
 4. **Inicialização:** Execute as células do Notebook seguindo a ordem lógica:
 - Carregamento de Dados (`data/`)
 - Configuração do Modelo (`Gemini 2.5 Flash`)
