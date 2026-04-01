@@ -59,8 +59,8 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | Chatbot responsivo desenvolvido em Streamlit. |
-| LLM | Google Gemini API (Processamento de Linguagem Natural). |
+| Interface | Chatbot responsivo desenvolvido em Gradio, otimizado para execução em nuvem (Google Colab). |
+| LLM | Google Gemini 2.5 Flash (Processamento de Linguagem Natural). |
 | Base de Conhecimento | Arquivos JSON e CSV com dados reais de transações e produtos. |
 | Validação | Camada de Grounding para evitar alucinações e garantir respostas baseadas em fatos. |
 
