@@ -29,11 +29,16 @@ O **VIGI** é um agente financeiro proativo desenvolvido para transformar a gest
 ### 1. Documentação e Estratégia
 O VIGI atua como um consultor de proteção patrimonial. O fluxo de dados garante que a IA não "invente" saldos, baseando-se estritamente na base de conhecimento.
 
+### 1. Documentação e Estratégia
+O VIGI possui uma documentação técnica completa para garantir a reprodutibilidade e a transparência do projeto:
+
 | Documento | Descrição |
 |-----------|-----------|
-| 📄 [**Documentação do Agente**](./docs/01-documentacao-agente.md) | Caso de uso, Persona e Arquitetura do VIGI. |
-| 📄 [**Prompts do Agente**](./docs/03-prompts.md) | Engenharia de Prompts e tratamento de Edge Cases. |
-| 📄 [**Avaliação e Métricas**](./docs/04-metricas.md) | Testes de assertividade e taxa de alucinação zero. |
+| 📄 [**01. Documentação do Agente**](./docs/01-documentacao-agente.md) | Caso de uso, Persona e Arquitetura do VIGI. |
+| 📄 [**02. Base de Conhecimento**](./docs/02-base-conhecimento.md) | Estratégia de dados RAG (CSV/JSON) e tratamento de informações. |
+| 📄 [**03. Prompts do Agente**](./docs/03-prompts.md) | Engenharia de Prompts (System Prompt) e Edge Cases. |
+| 📄 [**04. Avaliação e Métricas**](./docs/04-metrica.md) | Testes de assertividade e controle de alucinação. |
+| 📄 [**05. Pitch de Apresentação**](./docs/05-pitch.md) | Roteiro e proposta de valor do projeto para o mercado. |
 
 ### 2. Base de Conhecimento (RAG)
 Utilizamos dados estruturados para alimentar a inteligência do agente:
