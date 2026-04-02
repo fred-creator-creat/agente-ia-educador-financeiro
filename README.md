@@ -19,15 +19,12 @@ O **VIGI** é um agente financeiro proativo desenvolvido para transformar a gest
 * 🔄 **Em transição de carreira:** De Vigilante Profissional para a área de Tecnologia.
 * 🎓 **Técnico em Desenvolvimento de Sistemas** (Formado pelo Senac).
 * 📚 **Bolsista:** Bootcamp [Bradesco](https://www.bradesco.com.br/) - GenAI & Dados em parceria com a [DIO](https://www.dio.me/).
-* 🎯 **Foco Atual:** Machine Learning, IA Generativa (LLMs) e Análise de Dados (Python, Neo4j, Power BI e Execel).
+* 🎯 **Foco Atual:** Machine Learning, IA Generativa (LLMs) e Análise de Dados (Python, Neo4j, Power BI e Excel).
 * 🔗 **[Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/fred-cavalheiro/)**
 
 ---
 
 ## 🏗️ O Que Foi Entregue
-
-### 1. Documentação e Estratégia
-O VIGI atua como um consultor de proteção patrimonial. O fluxo de dados garante que a IA não "invente" saldos, baseando-se estritamente na base de conhecimento.
 
 ### 1. Documentação e Estratégia
 O VIGI possui uma documentação técnica completa para garantir a reprodutibilidade e a transparência do projeto:
@@ -66,7 +63,11 @@ Utilizamos dados estruturados para alimentar a inteligência do agente:
 
 ## 🚀 Como Executar o Protótipo
 
-1.  **Acesse o código:** Navegue até a pasta [`src/`](./src/) e abra o notebook no Google Colab.
+Para testar o agente em tempo real, utilize o ambiente oficial de execução clicando no botão abaixo:
+
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](COLOQUE_AQUI_O_LINK_DO_SEU_NOTEBOOK)
+
+1.  1. 💻 [**Clique aqui para ver o código fonte do VIGI**](./src/app.py)
 2.  **Chave de API:** Configure sua `GOOGLE_API_KEY` nos segredos do ambiente Colab.
 3.  **Instalação:**
     ```python
