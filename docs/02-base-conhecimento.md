@@ -40,7 +40,7 @@ Os dados são injetados dinamicamente no contexto do prompt de sistema (System I
 
 ## Exemplo de Contexto Montado
 
-> Mostre um exemplo de como os dados são formatados para o agente.
+> Um exemplo de como os dados são formatados para o agente.
 
 ```text
 CONTEXTO DO CLIENTE (Vigi Mode):
