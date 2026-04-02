@@ -103,8 +103,9 @@ Para testar o agente em tempo real, utilize o ambiente oficial de execução cli
 │   └── 📄 README.md
 │
 ├── 📁 src/
-│   └── 📄 README.md
-│
+│   ├── 📄 README.md
+│   └── 📄 Vigi_Agente_Financeiro.ipynb
+|
 └── 📄 README.md (Este arquivo principal)
 ```
 
