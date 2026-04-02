@@ -39,10 +39,10 @@ Utilizamos dados estruturados para alimentar a inteligência do agente:
 
 | Arquivo | Formato | Função no VIGI |
 |---------|---------|----------------|
-| `transacoes.csv` | [CSV](https://pandas.pydata.org/) | Histórico de movimentações para análise de padrões de gastos. |
-| `perfil_investidor.json` | [JSON](https://www.json.org/json-en.html) | Define o apetite a risco, metas e tolerância do usuário. |
-| `produtos_financeiros.json` | [JSON](https://www.json.org/json-en.html) | Catálogo oficial de soluções e investimentos disponíveis. |
-| `historico_atendimento.csv` | [CSV](https://pandas.pydata.org/) | Contexto de interações passadas para um atendimento contínuo. |
+| `transacoes.csv` | [CSV](data/transacoes.csv) | Histórico de movimentações para análise de padrões de gastos. |
+| `perfil_investidor.json` | [JSON](data/perfil_investidor.json) | Define o apetite a risco, metas e tolerância do usuário. |
+| `produtos_financeiros.json` | [JSON](data/produtos_financeiros.json) | Catálogo oficial de soluções e investimentos disponíveis. |
+| `historico_atendimento.csv` | [CSV](data/historico_atendimento.csv) | Contexto de interações passadas para um atendimento contínuo. |
 
 ---
 
