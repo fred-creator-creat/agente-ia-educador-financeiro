@@ -67,7 +67,7 @@ Para testar o agente em tempo real, utilize o ambiente oficial de execução cli
 
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](COLOQUE_AQUI_O_LINK_DO_SEU_NOTEBOOK)
 
-1.  💻 [**Clique aqui para ver o código fonte do VIGI**](./src/app.py)
+1.  💻 [**Clique aqui para ver o código fonte do VIGI**](./src/Vigi_Agente_Financeiro.ipynb)
 2.  **Chave de API:** Configure sua `GOOGLE_API_KEY` nos segredos do ambiente Colab.
 3.  **Instalação:**
     ```python
