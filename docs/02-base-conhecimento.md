@@ -29,7 +29,7 @@ Os dados originais foram mantidos para garantir a integridade do teste, porém o
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-Os arquivos JSON e CSV são carregados via Python (Pandas) no ambiente Google Colab e exibidos via Gradio. Eles são convertidos em estruturas de texto otimizadas para que o modelo Gemini possa processar as tabelas com rapidez, mesmo em ambientes de hardware limitado.
+Os arquivos JSON e CSV são carregados via Python (Pandas) no ambiente Google Colab e exibidos via ipywidgets. Eles são convertidos em estruturas de texto otimizadas para que o modelo Gemini-2.5-flash possa processar as tabelas com rapidez, mesmo em ambientes de hardware limitado.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
