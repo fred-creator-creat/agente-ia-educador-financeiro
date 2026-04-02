@@ -109,5 +109,5 @@ Utilizamos dados estruturados para alimentar a inteligência do agente:
 
 ---
 
-[!TIP]
+> [!TIP]
 Dica de Avaliação: O VIGI brilha em cenários de "limite", onde o cliente tenta forçar uma recomendação de risco alto sendo conservador. O sistema de segurança bloqueia e orienta conforme o perfil.
