@@ -47,12 +47,11 @@ Técnico-acessível. Utiliza uma linguagem profissional e objetiva, transmitindo
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
-    D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
+    A[Cliente/Usuário] -->|Pergunta| B[Interface ipywidgets]
+    D[(Base de Dados: CSV/JSON)] -->|Contexto| B
+    B -->|Prompt Estruturado| C{Gemini 2.5 Flash}
+    C -->|Geração de Resposta| E[Validação de Segurança]
+    E -->|Resposta Consultiva| F[Dashboard VIGI]
 ```
 
 ### Componentes
