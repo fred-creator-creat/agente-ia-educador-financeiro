@@ -15,11 +15,16 @@ O **VIGI** é um agente financeiro proativo desenvolvido para transformar a gest
 
 ## 👨‍💻 Desenvolvedor
 
+---
+
+## 👨‍💻 Desenvolvedor e Contexto Técnico
+
 **Fred Cavalheiro**
-* 🔄 **Transição de Carreira:** De Vigilante Profissional para Especialista em Tecnologia.
-* 🎓 **Formação:** Técnico em Desenvolvimento de Sistemas (Senac).
-* 📚 **Bolsista:** Bootcamp Bradesco - GenAI & Dados em parceria com a [DIO](https://www.dio.me/).
-* 🔗 **[Conecte-se no LinkedIn](https://www.linkedin.com/in/fred-cavalheiro/)**
+* 🔄 **Em transição de carreira:** De Vigilante Profissional para a área de Tecnologia.
+* 🎓 **Técnico em Desenvolvimento de Sistemas** (Formado pelo Senac).
+* 📚 **Bolsista:** Bootcamp [Bradesco](https://www.bradesco.com.br/) - GenAI & Dados em parceria com a [DIO](https://www.dio.me/).
+* 🎯 **Foco Atual:** Machine Learning, IA Generativa (LLMs) e Análise de Dados (Python, Neo4j, Power BI e Execel).
+* 🔗 **[Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/fred-cavalheiro/)**
 
 ---
 
