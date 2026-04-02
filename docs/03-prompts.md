@@ -99,7 +99,7 @@ Como seu Vigilante Financeiro, meu foco é segurança, não lucro rápido. Para 
 
 ## Observações e Aprendizados
 
-> Registre aqui ajustes que você fez nos prompts e por quê.
+> Registrei aqui ajustes que eu fiz nos prompts e por quê.
 
 - Ajuste na Persona: Reforcei o termo "Vigilante" no prompt do sistema para garantir que a IA mantenha o tom de autoridade e proteção em todas as respostas.
 
