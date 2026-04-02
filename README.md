@@ -39,9 +39,10 @@ Utilizamos dados estruturados para alimentar a inteligência do agente:
 
 | Arquivo | Formato | Função no VIGI |
 |---------|---------|----------------|
-| `transacoes.csv` | [Pandas CSV](https://pandas.pydata.org/) | Histórico de movimentações para análise de padrões. |
-| `perfil_investidor.json` | [JSON](https://www.json.org/json-en.html) | Define o apetite a risco e metas do usuário. |
-| `produtos_financeiros.json` | [JSON](https://www.json.org/json-en.html) | Catálogo oficial de soluções disponíveis. |
+| `transacoes.csv` | [CSV](https://pandas.pydata.org/) | Histórico de movimentações para análise de padrões de gastos. |
+| `perfil_investidor.json` | [JSON](https://www.json.org/json-en.html) | Define o apetite a risco, metas e tolerância do usuário. |
+| `produtos_financeiros.json` | [JSON](https://www.json.org/json-en.html) | Catálogo oficial de soluções e investimentos disponíveis. |
+| `historico_atendimento.csv` | [CSV](https://pandas.pydata.org/) | Contexto de interações passadas para um atendimento contínuo. |
 
 ---
 
@@ -79,3 +80,9 @@ Utilizamos dados estruturados para alimentar a inteligência do agente:
 ├── 📁 docs/           # Documentação técnica detalhada
 ├── 📁 src/            # Código-fonte otimizado (Colab + ipywidgets)
 └── 📁 examples/       # Exemplos de interações reais do VIGI
+```
+
+---
+
+[!TIP]
+Dica de Avaliação: O VIGI brilha em cenários de "limite", onde o cliente tenta forçar uma recomendação de risco alto sendo conservador. O sistema de segurança bloqueia e orienta conforme o perfil.
