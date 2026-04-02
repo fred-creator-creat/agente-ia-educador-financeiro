@@ -1,149 +1,81 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 🤖 VIGI - Vigilante Financeiro Inteligente (GenAI)
 
-## Contexto
+## 📌 Contexto e Propósito
+O **VIGI** é um agente financeiro proativo desenvolvido para transformar a gestão de patrimônio. Enquanto assistentes comuns apenas respondem dúvidas, o VIGI utiliza IA Generativa para:
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
+- **Antecipar riscos** financeiros analisando padrões de gastos.
+- **Personalizar** estratégias de investimento baseadas no perfil real do cliente.
+- **Cocriar** planos de reserva de emergência de forma consultiva.
+- **Garantir segurança** total através de prompts anti-alucinação.
 
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
-
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
-
----
-
-## O Que Você Deve Entregar
-
-### 1. Documentação do Agente
-
-Defina **o que** seu agente faz e **como** ele funciona:
-
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
+> [!IMPORTANT]
+> **Nota de Resiliência Técnica:** Este projeto foi desenvolvido em um **notebook emprestado** com limitações de hardware (RAM/Processamento). Para superar esse desafio, adotei uma arquitetura **Cloud-Native** via [Google Colab](https://colab.research.google.com/), garantindo performance máxima sem depender de recursos locais.
 
 ---
 
-### 2. Base de Conhecimento
+## 👨‍💻 Desenvolvedor
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
-
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
-
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
+**Fred Cavalheiro**
+* 🔄 **Transição de Carreira:** De Vigilante Profissional para Especialista em Tecnologia.
+* 🎓 **Formação:** Técnico em Desenvolvimento de Sistemas (Senac).
+* 📚 **Bolsista:** Bootcamp Bradesco - GenAI & Dados em parceria com a [DIO](https://www.dio.me/).
+* 🔗 **[Conecte-se no LinkedIn](https://www.linkedin.com/in/fred-cavalheiro/)**
 
 ---
 
-### 3. Prompts do Agente
+## 🏗️ O Que Foi Entregue
 
-Documente os prompts que definem o comportamento do seu agente:
+### 1. Documentação e Estratégia
+O VIGI atua como um consultor de proteção patrimonial. O fluxo de dados garante que a IA não "invente" saldos, baseando-se estritamente na base de conhecimento.
 
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
+| Documento | Descrição |
+|-----------|-----------|
+| 📄 [**Documentação do Agente**](./docs/01-documentacao-agente.md) | Caso de uso, Persona e Arquitetura do VIGI. |
+| 📄 [**Prompts do Agente**](./docs/03-prompts.md) | Engenharia de Prompts e tratamento de Edge Cases. |
+| 📄 [**Avaliação e Métricas**](./docs/04-metricas.md) | Testes de assertividade e taxa de alucinação zero. |
 
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
+### 2. Base de Conhecimento (RAG)
+Utilizamos dados estruturados para alimentar a inteligência do agente:
 
----
-
-### 4. Aplicação Funcional
-
-Desenvolva um **protótipo funcional** do seu agente:
-
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
-
-📁 **Pasta:** [`src/`](./src/)
+| Arquivo | Formato | Função no VIGI |
+|---------|---------|----------------|
+| `transacoes.csv` | [Pandas CSV](https://pandas.pydata.org/) | Histórico de movimentações para análise de padrões. |
+| `perfil_investidor.json` | [JSON](https://www.json.org/json-en.html) | Define o apetite a risco e metas do usuário. |
+| `produtos_financeiros.json` | [JSON](https://www.json.org/json-en.html) | Catálogo oficial de soluções disponíveis. |
 
 ---
 
-### 5. Avaliação e Métricas
+## 🛠️ Ferramentas e Decisões de Engenharia
 
-Descreva como você avalia a qualidade do seu agente:
-
-**Métricas Sugeridas:**
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
-
----
-
-### 6. Pitch
-
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
-
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
-
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
+| Categoria | Ferramenta | Justificativa Técnica |
+|-----------|------------|-----------------------|
+| **LLM** | [Gemini 2.5 Flash](https://ai.google.dev/models/gemini) | Escolhido pela alta velocidade e janela de contexto eficiente. |
+| **Desenvolvimento** | [Google Colab](https://colab.research.google.com/) | Viabilizou o projeto em hardware limitado via nuvem. |
+| **Interface** | [ipywidgets](https://ipywidgets.readthedocs.io/) | Substituiu o Streamlit para garantir estabilidade e UX no navegador. |
+| **Orquestração** | **Integração Direta** | Optamos por não usar LangChain para economizar memória RAM local. |
+| **Diagramas** | [Mermaid.js](https://mermaid.js.org/) | Fluxogramas dinâmicos renderizados diretamente no GitHub. |
 
 ---
 
-## Ferramentas Sugeridas
+## 🚀 Como Executar o Protótipo
 
-Todas as ferramentas abaixo possuem versões gratuitas:
-
-| Categoria | Ferramentas |
-|-----------|-------------|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/) |
-| **Diagramas** | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
+1.  **Acesse o código:** Navegue até a pasta [`src/`](./src/) e abra o notebook no Google Colab.
+2.  **Chave de API:** Configure sua `GOOGLE_API_KEY` nos segredos do ambiente Colab.
+3.  **Instalação:**
+    ```python
+    !pip install -q -U google-generativeai ipywidgets
+    ```
+4.  **Fluxo:** Carregue os dados da pasta [`data/`](./data/) e execute a interface de chat.
 
 ---
 
-## Estrutura do Repositório
+## 📁 Estrutura do Repositório
 
-```
-📁 lab-agente-financeiro/
+```text
+📁 lab-agente-financeiro-vigi/
 │
-├── 📄 README.md
-│
-├── 📁 data/                          # Dados mockados para o agente
-│   ├── historico_atendimento.csv     # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.json        # Perfil do cliente (JSON)
-│   ├── produtos_financeiros.json     # Produtos disponíveis (JSON)
-│   └── transacoes.csv                # Histórico de transações (CSV)
-│
-├── 📁 docs/                          # Documentação do projeto
-│   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
-│   ├── 02-base-conhecimento.md       # Estratégia de dados
-│   ├── 03-prompts.md                 # Engenharia de prompts
-│   ├── 04-metricas.md                # Avaliação e métricas
-│   └── 05-pitch.md                   # Roteiro do pitch
-│
-├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
-│
-├── 📁 assets/                        # Imagens e diagramas
-│   └── ...
-│
-└── 📁 examples/                      # Referências e exemplos
-    └── README.md
-```
-
----
-
-## Dicas Finais
-
-1. **Comece pelo prompt:** Um bom system prompt é a base de um agente eficaz
-2. **Use os dados mockados:** Eles garantem consistência e evitam problemas com dados sensíveis
-3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
-4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
-5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
+├── 📄 README.md (Este arquivo)
+├── 📁 data/           # Bases CSV/JSON clicáveis
+├── 📁 docs/           # Documentação técnica detalhada
+├── 📁 src/            # Código-fonte otimizado (Colab + ipywidgets)
+└── 📁 examples/       # Exemplos de interações reais do VIGI
