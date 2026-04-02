@@ -13,10 +13,6 @@ O **VIGI** é um agente financeiro proativo desenvolvido para transformar a gest
 
 ---
 
-## 👨‍💻 Desenvolvedor
-
----
-
 ## 👨‍💻 Desenvolvedor e Contexto Técnico
 
 **Fred Cavalheiro**
