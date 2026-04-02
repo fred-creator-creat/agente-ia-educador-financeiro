@@ -37,7 +37,7 @@ O VIGI possui uma documentação técnica completa para garantir a reprodutibili
 | 📄 [**01. Documentação do Agente**](./docs/01-documentacao-agente.md) | Caso de uso, Persona e Arquitetura do VIGI. |
 | 📄 [**02. Base de Conhecimento**](./docs/02-base-conhecimento.md) | Estratégia de dados RAG (CSV/JSON) e tratamento de informações. |
 | 📄 [**03. Prompts do Agente**](./docs/03-prompts.md) | Engenharia de Prompts (System Prompt) e Edge Cases. |
-| 📄 [**04. Avaliação e Métricas**](./docs/04-metrica.md) | Testes de assertividade e controle de alucinação. |
+| 📄 [**04. Avaliação e Métricas**](./docs/04-metricas.md) | Testes de assertividade e controle de alucinação. |
 | 📄 [**05. Pitch de Apresentação**](./docs/05-pitch.md) | Roteiro e proposta de valor do projeto para o mercado. |
 
 ### 2. Base de Conhecimento (RAG)
