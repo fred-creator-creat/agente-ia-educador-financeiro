@@ -79,13 +79,32 @@ Utilizamos dados estruturados para alimentar a inteligência do agente:
 ## 📁 Estrutura do Repositório
 
 ```text
-📁 lab-agente-financeiro-vigi/
+📁 agente-ia-educador-financeiro/
 │
-├── 📄 README.md (Este arquivo)
-├── 📁 data/           # Bases CSV/JSON clicáveis
-├── 📁 docs/           # Documentação técnica detalhada
-├── 📁 src/            # Código-fonte otimizado (Colab + ipywidgets)
-└── 📁 examples/       # Exemplos de interações reais do VIGI
+├── 📁 assets/
+│   ├── 📄 README.md
+│   └── 📄 RoteiroLab.md
+│
+├── 📁 data/
+│   ├── 📄 histórico_atendimento.csv
+│   ├── 📄 perfil_investidor.json
+│   ├── 📄 produtos_financeiros.json
+│   └── 📄 transacoes.csv
+│
+├── 📁 docs/
+│   ├── 📄 01-documentacao-agente.md
+│   ├── 📄 02-base-conhecimento.md
+│   ├── 📄 03-prompts.md
+│   ├── 📄 04-metricas.md
+│   └── 📄 05-pitch.md
+│
+├── 📁 examples/
+│   └── 📄 README.md
+│
+├── 📁 src/
+│   └── 📄 README.md
+│
+└── 📄 README.md (Este arquivo principal)
 ```
 
 ---
