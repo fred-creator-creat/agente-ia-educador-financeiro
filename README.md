@@ -75,6 +75,11 @@ Para testar o agente em tempo real, utilize o ambiente oficial de execução cli
     ```
 4.  **Fluxo:** Carregue os dados da pasta [`data/`](./data/) e execute a interface de chat.
 
+5.  > [!IMPORTANT]
+> **Nota de Visualização:** Devido às configurações de otimização do Google Colab para repositórios públicos, a estilização CSS/HTML da interface (VIGI) pode não ser renderizada diretamente na visualização prévia do GitHub. 
+> 
+> Ao realizar o **Fork** ou abrir o arquivo `.ipynb` no **Google Colab**, toda a estrutura de metadados e estilização será carregada normalmente, garantindo a experiência visual completa da interface.
+
 ---
 
 ## 📁 Estrutura do Repositório
