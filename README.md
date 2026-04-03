@@ -84,7 +84,18 @@ Para testar o agente em tempo real, utilize o ambiente oficial de execução cli
 │
 ├── 📁 assets/
 │   ├── 📄 README.md
-│   └── 📄 RoteiroLab.md
+│   ├── 📄 RoteiroLab.md
+│   ├── 🖼️ codigo_celula3.png
+│   ├── 🖼️ pergunta3.png
+│   ├── 🖼️ pergunta4.png
+│   ├── 🖼️ pergunta_e_resposta1.png
+│   ├── 🖼️ pergunta_e_resposta2.png
+│   ├── 🖼️ pergunta_e_resposta5.png
+│   ├── 🖼️ resposta3.png
+│   ├── 🖼️ resposta4.png
+│   ├── 🖼️ terminal_celula3.1.png
+│   ├── 🖼️ terminal_celula3.2.png
+│   └── 🖼️ vigi_interface.png
 │
 ├── 📁 data/
 │   ├── 📄 histórico_atendimento.csv
@@ -113,3 +124,39 @@ Para testar o agente em tempo real, utilize o ambiente oficial de execução cli
 
 > [!TIP]
 Dica de Avaliação: O VIGI brilha em cenários de "limite", onde o cliente tenta forçar uma recomendação de risco alto sendo conservador. O sistema de segurança bloqueia e orienta conforme o perfil.
+
+---
+
+## 🔍 Evidências de Testes - Backend (Célula 3)
+
+### Lógica de Perguntas
+![Código de Teste](assets/codigo_celula3.png)
+
+### Resultados no Terminal
+![Respostas 1 e 2](assets/terminal_celula3.1.png)
+![Respostas 3 e 4](assets/terminal_celula3.2.png)
+
+---
+
+## 🖥️ Demonstração da Interface e Consultas
+
+### Interface Principal do VIGI
+![Interface VIGI](assets/vigi_interface.png)
+
+### Consultas Realizadas
+**Teste 1 (Pergunta e Resposta):**
+![Pergunta e Resposta 1](assets/pergunta_e_resposta1.png)
+
+**Teste 2 (Pergunta e Resposta):**
+![Pergunta e Resposta 2](assets/pergunta_e_resposta2.png)
+
+**Teste 3 (Pergunta e Resposta):**
+![Pergunta 3](assets/pergunta3.png)
+![Resposta 3](assets/resposta3.png)
+
+**Teste 4 (Pergunta e Resposta):**
+![Pergunta 4](assets/pergunta4.png)
+![Resposta 4](assets/resposta4.png)
+
+**Teste 5 (Pergunta e Resposta):**
+![Pergunta e Resposta 5](assets/pergunta_e_resposta5.png)
