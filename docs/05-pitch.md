@@ -7,7 +7,7 @@
 "Apresento o **Vigi**, um Vigilante Financeiro baseado no Google Gemini 2.5 Flash. Diferente de chatbots genéricos, o Vigi atua como um mentor de proteção. Ele utiliza técnicas avançadas de **Grounding** em arquivos CSV e JSON para analisar o histórico real do usuário. O foco do Vigi não é o lucro rápido, mas a 'Guarda Alta': garantir que a reserva de emergência seja a prioridade absoluta antes de qualquer risco."
 
 ## 3. Demonstração e Tecnologia (1 min)
-"Desenvolvi o Vigi em um ambiente **100% Cloud (Google Colab)**, superando limitações de hardware local com uma arquitetura eficiente em Python e Pandas. Na interface **Gradio**, vemos o Vigi em ação: ele identifica gastos de transporte (somando Uber e Combustível com precisão de centavos) e barra tentativas de investimento em Cripto quando detecta que a reserva de emergência do usuário ainda não atingiu a meta de R$ 15.000,00."
+"Desenvolvi o Vigi em um ambiente **100% Cloud (Google Colab)**, superando limitações de hardware local com uma arquitetura eficiente em Python e Pandas. Na interface **ipywidgets**, vemos o Vigi em ação: ele identifica gastos de transporte (somando Uber e Combustível com precisão de centavos) e barra tentativas de investimento em Cripto quando detecta que a reserva de emergência do usuário ainda não atingiu a meta de R$ 15.000,00."
 
 ## 4. Diferencial e Impacto (30 seg)
 "O diferencial do Vigi é a sua 'Admissão de Ignorância': ele nunca alucina. Se o dado não está na base, ele informa por segurança. O impacto é a resiliência financeira: um vigilante digital que impede decisões impulsivas e educa o usuário para a verdadeira segurança patrimonial."
