@@ -132,7 +132,7 @@ Dica de Avaliação: O VIGI brilha em cenários de "limite", onde o cliente tent
 
 ---
 
-## 🚀 Link do Vídeo de Demonstração do VIGI em Ação.
+## 🚀 Link do Vídeo de Demonstração do VIGI em Ação (YouTube).
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
