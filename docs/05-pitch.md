@@ -38,5 +38,3 @@
 
 > [!TIP]
 > **O que observar:** *O vídeo apresenta o fluxo de atendimento do chatbot e a robusta documentação desenvolvida para este projeto.*
-
-[Aguardando gravação do vídeo de demonstração]
