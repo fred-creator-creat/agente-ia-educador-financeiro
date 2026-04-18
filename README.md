@@ -132,11 +132,13 @@ Dica de Avaliação: O VIGI brilha em cenários de "limite", onde o cliente tent
 
 ---
 
-## 🚀 Link do Vídeo de Demonstração do VIGI em Ação (YouTube).
+## 🚀 Demonstração do VIGI em Ação
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
+Clique na imagem abaixo para assistir ao vídeo de apresentação e demonstração do projeto:
 
-[Aguardando gravação do vídeo de demonstração]
+[![Pitch VIGI](assets/thumb-projeto.png)](https://youtu.be/QOOhf_1scRc)
+
+> *Nota: O vídeo apresenta o fluxo de atendimento do chatbot e a robusta documentação desenvolvida para este projeto.*
 
 ## 🔍 Evidências de Testes - Backend (Célula 3)
 
