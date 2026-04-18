@@ -25,6 +25,18 @@
 
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
+## 🚀 Demonstração do VIGI em Ação
+
+> [!IMPORTANT]
+> **Assista ao Pitch de Entrega:** Clique na imagem abaixo para ver o VIGI em funcionamento e entender como a documentação robusta sustenta o atendimento do agente.
+
+<div align="center">
+
+[![Pitch VIGI](assets/thumb-projeto.png)](https://youtu.be/QOOhf_1scRc)
+
+</div>
+
+> [!TIP]
+> **O que observar:** *O vídeo apresenta o fluxo de atendimento do chatbot e a robusta documentação desenvolvida para este projeto.*
 
 [Aguardando gravação do vídeo de demonstração]
