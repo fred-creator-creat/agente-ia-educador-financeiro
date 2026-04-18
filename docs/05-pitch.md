@@ -32,7 +32,7 @@
 
 <div align="center">
 
-[![Pitch VIGI](assets/thumb-projeto.png)](https://youtu.be/QOOhf_1scRc)
+[![Pitch VIGI](/assets/thumb-projeto.png)](https://youtu.be/QOOhf_1scRc)
 
 </div>
 
