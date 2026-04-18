@@ -134,11 +134,17 @@ Dica de Avaliação: O VIGI brilha em cenários de "limite", onde o cliente tent
 
 ## 🚀 Demonstração do VIGI em Ação
 
-Clique na imagem abaixo para assistir ao vídeo de apresentação e demonstração do projeto:
+> [!IMPORTANT]
+> **Assista ao Pitch de Entrega:** Clique na imagem abaixo para ver o VIGI em funcionamento e entender como a documentação robusta sustenta o atendimento do agente.
+
+<div align="center">
 
 [![Pitch VIGI](assets/thumb-projeto.png)](https://youtu.be/QOOhf_1scRc)
 
-> *Nota: O vídeo apresenta o fluxo de atendimento do chatbot e a robusta documentação desenvolvida para este projeto.*
+</div>
+
+> [!TIP]
+> **O que observar:** *O vídeo apresenta o fluxo de atendimento do chatbot e a robusta documentação desenvolvida para este projeto.*
 
 ## 🔍 Evidências de Testes - Backend (Célula 3)
 
